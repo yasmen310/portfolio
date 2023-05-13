@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 240px 922px;
+
+}
+.profile{
+    border: 5px solid #ff000047;
+    border-radius: 108px;
+    height: 595px;
+}
+.image{
+    width: 165px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 8px solid #353536;
+    border-radius: 64px;
+   
+}
+.name{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color: beige;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #9C27B0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    line-height: 2;
+    margin-left: 60px;
+    font-size: x-large;
+    color: antiquewhite;
+}
+a:hover{
+    color: green;
+}
+.title{
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    color: beige;
+    margin-top: 50px;
+}
+.all_data{
+    display: grid;
+    grid-template-rows:200px 700px ;
+    
+}
+.contact{
+    display:grid;
+     grid-template-columns: 240px 922px;
+     line-height: 50px;
+}
+
+.addr{
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-left: 50px;
+    color:beige;
+}
+.addr_name,.phone{
+    font-size: x-large;
+    text-transform: capitalize;
+    margin-left: 50px;
+    color:beige;
+}
+.tele{
+    font-size: x-large;
+    margin-left: 50px;
+    color:beige;  
+    vertical-align: text-top;
+}
+.follow{
+    font-size: x-large;
+    font-weight: 200;
+    text-transform: capitalize;
+    color: darkgreen;
+    text-shadow: 1px 1px 1px green;
+    margin-left: 50px;
+    line-height: 70px;
+}
+.subtitle{
+    color:beige; 
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 200;
+    margin-left: 22px;
+
+}
+.inputName,.inputEmail{
+    background-color:rgb(158 158 158 / 20%);
+    color: white;
+    width: 320px;
+    height: 30px;
+    padding: 12px;
+    border: 5px solid #000000ed;
+    margin-left: 20px;
+    font-size: large;
+}
+.area{
+    width:680px;
+    height:80px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 12px;
+    border: 5px solid #000000ed;
+    font-size: large;
+    background-color:rgb(158 158 158 / 20%);
+    color: white;
+}
+
+.bott{
+     width: 250px;
+     height: 64px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-left: 300px;
+    border:1px solid rgb(109, 160, 219);
+    border-radius: 72px;
+    color: whitesmoke;
+    background-color: rgb(7, 243, 7);
+   
+}

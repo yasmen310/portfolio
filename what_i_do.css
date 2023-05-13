@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 240px 922px;
+
+}
+.profile{
+    border: 5px solid #ff000047;
+    border-radius: 108px;
+    height: 595px;
+}
+.image{
+    width: 165px;
+    height: 160px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 8px solid #353536;
+    border-radius: 64px;
+   
+}
+.name{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color: beige;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #9C27B0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    line-height: 2;
+    margin-left: 60px;
+    font-size: x-large;
+    color: antiquewhite;
+}
+a:hover{
+    color: green;
+}
+.title{
+    font-size: xxx-large;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: antiquewhite;
+}
+.track{
+    display: grid;
+    grid-template-columns: 400px 600px;
+}
+.icon{
+    background-color:  rgb(99, 95, 92);
+    width:90px;
+    height:90px;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 39px;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    color: #e1ba4b;
+}
+.identify{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+    color: antiquewhite;
+}
